@@ -4,5 +4,4 @@ export const ListPersonalSkill = [
     {id: 3, Content: 'Creative Idea'},
     {id: 3, Content: 'Project Manager'},
     {id: 3, Content: 'Photography'},
-
 ]

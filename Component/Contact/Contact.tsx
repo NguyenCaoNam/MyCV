@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Contact.module.scss'
 import {ListContact} from './ListContact'
 
@@ -21,7 +20,7 @@ const ContactItem = ({Title, Subtitle}: Tcontact) => {
 const Contact = () => {
   return (
     <>
-        <div style={{display: 'flex', flexDirection: 'column', gap: 16, alignItems: 'start'}}>
+        <div style={{display: 'flex', flexDirection: 'column', gap: 16, alignItems: 'flex-start'}}>
                 {ListContact.map((Item)=>{
                 return(
                 <ContactItem 

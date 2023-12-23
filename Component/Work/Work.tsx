@@ -1,7 +1,5 @@
-import React from 'react'
 import styles from './Work.module.scss'
 import { ListWork } from './ListWork'
-import { FaLeaf } from 'react-icons/fa'
 
 type TWorkItem = {
     Title: string,

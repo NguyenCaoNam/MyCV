@@ -33,7 +33,7 @@
 .Wrap {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     gap: 8px;
     padding-bottom: 24px;
     width: 500px;
@@ -42,7 +42,7 @@
 .WrapContent {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     gap: 8px;
 }
 .Description {
