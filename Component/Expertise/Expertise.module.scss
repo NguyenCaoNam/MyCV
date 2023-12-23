@@ -1,0 +1,41 @@
+.Title {
+    color: #3958A7;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.Wraper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    width: 400px;
+    justify-content: space-between;
+}
+.Wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding: 8px;
+    border-radius: 10px;
+    width: 140px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.Img {
+    overflow: hidden;
+    width: 24px;
+    height: 24px;
+}
+
+.Img > img {
+    height: 24px;
+    width: auto;
+}
+
+.Star {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}

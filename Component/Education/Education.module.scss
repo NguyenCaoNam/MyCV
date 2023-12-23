@@ -1,0 +1,47 @@
+.Wraper {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.Title {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    width: 400px;
+    text-align: left;
+}
+
+.Role {
+    font-size: 20px;
+    font-weight: 500px;
+    font-style: italic;
+}
+
+.Time {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.DateTime {
+    font-size: 16px;
+    color: grey;
+    font-weight: 500px;
+}
+
+.Wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 16px;
+    padding-bottom: 24px;
+    width: 500px;
+}
+
+.WrapContent {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
