@@ -17,8 +17,8 @@ function App() {
     <>
       <div>
         <div></div>
-        <div style={{display:'flex', flexDirection: 'row', alignItems: 'start'}}>
-          <div style={{display: 'flex', flexDirection: 'column', gap: 64, alignItems: 'center', padding:64, backgroundColor: '#3958A7', }}>
+        <div style={{display:'flex', flexDirection: 'row', alignItems: 'stretch'}}>
+          <div style={{display: 'flex', flexDirection: 'column', gap: 64, alignItems: 'center', padding:64, backgroundColor: '#3958A7' }}>
             <div style={{
               height: 350,
               width: 350,
